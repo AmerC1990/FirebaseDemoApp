@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Email" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password" />
+
+    <Button
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#74C318"
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Login"
+        android:textAlignment="center" />
+
+    <Button
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F44336"
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Logout"
+        android:textAlignment="center" />
+
+    <Button
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#E1CD1F"
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Don't have an account? Register Here"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editCarYear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#2196F3"
+        android:hint="Enter Car Year"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <EditText
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#2196F3"
+        android:id="@+id/editCarMake"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Car Make"
+        android:textAlignment="center" />
+
+    <EditText
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#2196F3"
+        android:id="@+id/editCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Car Model"
+        android:textAlignment="center" />
+
+    <Button
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#E1CD1F"
+        android:id="@+id/btnSubmitCar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Submit Car"
+        android:textAlignment="center" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btnViewAllCarsList"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="View All Of My Cars"
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "83135315149",
+    "firebase_url": "https://mycarlistfirebasedemo.firebaseio.com",
+    "project_id": "mycarlistfirebasedemo",
+    "storage_bucket": "mycarlistfirebasedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83135315149:android:5cb23d01dc252086bf7d84",
+        "android_client_info": {
+          "package_name": "com.amercosovic.mycarlistfirebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83135315149-g98eavb85hpe5qlfmmr3no6dujsm5q2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amercosovic.mycarlistfirebasedemo",
+            "certificate_hash": "525cd70483a0a0faaf97447da0b6ed1b55e630ce"
+          }
+        },
+        {
+          "client_id": "83135315149-bh636u0fusdkrvij5p2658mu8q9end59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsnGQ9XBDYMyUlUn62MiLhyoiQH5LDMvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83135315149-bh636u0fusdkrvij5p2658mu8q9end59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
